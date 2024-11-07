@@ -1,0 +1,73 @@
+.divPrincipal {
+    width: 100%;
+    height: 100%;
+    padding-top: 400px;
+    background-color: green;
+}
+
+.chronoPrincipal {
+    position: relative;
+    margin : auto;
+    width: 500px;
+    height: 150px;
+    padding-top: 10px;
+    background-color: LightGray;
+    /*border: 2px solid red;*/
+    border-radius: 10px;
+}
+
+#chrono {
+    position: relative;
+    margin: auto;
+    width: 450px;
+    height: 70px;
+
+    background-color: white;
+    /*border: 2px solid red;*/
+    border-radius: 5px;
+
+    text-align: center;
+    font-family: Cursive;
+    font-size: 40px;
+    /*ext-shadow: 2px 2px 5px green;*/
+}
+
+.timerButton{
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    margin-left: 3.9%;
+    margin-right: 3.9%;
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(0.9);
+}
+
+/*#buttonStop{
+    background-color: green;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+
+}
+
+#buttonReset{
+    background-color: green;
+    margin-top: 10px;
+    margin-left: auto;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border-style: none;
+
+}*/

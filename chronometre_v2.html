@@ -1,0 +1,30 @@
+<html>
+   
+   <head>
+      <meta charset="utf-8">
+      <title>chronomètre v2</title>
+
+      <link rel="stylesheet" type="text/css" href="css/chronometre_v2.css">
+      <script type="text/javascript" src = "js/chronometre_v2.js"></script>               
+   </head>
+   
+   <body>
+      <div class="divPrincipal">
+         <div class="chronoPrincipal">
+            <div id="chrono">
+               <!-- <span id="chrono">0h 0min 0s 0ms</span> -->
+               <script type="text/javascript">
+                  document.getElementById("chrono").innerHTML = "0h: 0min: 0s: 0ms";
+               </script>
+            </div>
+            <!-- <button class="timerButton" onclick="setTimeout(startTimer, 1000)">Start</button> -->
+            <button class="timerButton" id="startButton" onclick="startTimer()">Start</button>
+            <button class="timerButton" onclick="stopTimer()">Stop</button>
+            <button class="timerButton" onclick="resetTimer()">Reset</button>
+         </div>
+         <script type="text/javascript">
+         </script>
+      </div>
+   </body>
+
+</html>
